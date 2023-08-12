@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATER</title>
+    <link href="calculater.css" rel="stylesheet">
+   </head>
+
+<body>
+    <h3>CALCULATER</h3>
+    <form>
+    <!--2tables below tables have 4 rows=tr and 4 columns=td-->
+    
+        <table align="center" style="width: max-content;">
+            
+            <tr>
+                <td id="lblid">
+                    <label id="lblDisplay"></label>
+               </td>
+            </tr>
+            
+            <tr>
+
+                <td><input type ="text" id="txtDisplayid"></td>
+            </tr>
+           
+        </table>
+        <table align="center">
+            
+<tr>
+    <td><input type ="button" class="btnclass1" value="1" onclick="IntakeNumber(1)" onmouseover="mouseover(this)" onmouseout="mouseout(this)"></td>
+
+    <td><input type ="button" class="btnclass1" value="2" onclick="IntakeNumber(2)" onkeypress="IntakeNumber(2)"onmouseover="mouseover(this)" onmouseout="mouseout(this)"></td>
+
+    <td><input type ="button" class="btnclass1" value="3" onclick="IntakeNumber(3)" onkeypress="IntakeNumber(3)"></td>
+
+    <td><input type ="button" class="btnclass2" value="+"  onclick="Operater('+')"></td>
+
+   
+</tr>
+
+<tr>
+    <td><input type ="button" class="btnclass1" value="4" onclick="IntakeNumber(4)" ></td>
+    <td><input type ="button" class="btnclass1" value="5" onclick="IntakeNumber(5)"></td>
+    <td><input type ="button" class="btnclass1" value="6"  onclick="IntakeNumber(6)"></td>
+    <td><input type ="button" class="btnclass2" value="-" onclick="Operater('-')"></td>
+    
+</tr>
+
+<tr>
+    <td><input type ="button" class="btnclass1" value="7" onclick="IntakeNumber(7)"></td>
+    <td><input type ="button" class="btnclass1" value="8" onclick="IntakeNumber(8)"></td>
+    <td><input type ="button" class="btnclass1" value="9" onclick="IntakeNumber(9)"></td>
+    <td><input type ="button" class="btnclass2" value="*"  onclick="Operater('*')"></td>
+</tr>
+
+<tr>
+    <td><input type ="button" class="btnclass1" value="0" onclick="IntakeNumber(0)"></td>
+  
+    <td><input type ="button"class="btnclass2" value="/"   onclick="Operater('/')"></td>
+
+    <td><input type ="button" class="btnclass2" value="=" onclick="IsEqualTo()"></td>
+
+    <td><input type ="button" id="btnClearid" value="CE" onclick="Clear()"></td>
+
+</tr>
+    
+</table>
+    </form>
+    <script src="calculater.js"></script>
+</body>
+</html>

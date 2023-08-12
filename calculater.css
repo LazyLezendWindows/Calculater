@@ -1,0 +1,43 @@
+input[type="button"]
+{
+    
+    color: rgb(11, 3, 5);
+    font-weight: bolder;
+    width: 40px;
+    height: 25px;
+}
+h3
+{
+color: rgb(203, 123, 18); text-align: center;
+
+}
+table
+{
+background-color: rgb(41, 197, 236);
+}
+#lblid
+{
+    text-align: right;
+}
+#lblDisplay
+{
+    background-color: aquamarine;
+    
+}
+#txtDisplayid
+{ text-align: right;
+    background-color: slategrey;
+    height: 30px;
+}
+#btnClearid
+{
+    background-color: darkmagenta;
+}
+.btnclass1
+{
+    background-color: cadetblue;
+}
+.btnclass2
+{
+    background-color: darkslategrey;
+}
